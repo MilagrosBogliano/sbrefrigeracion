@@ -147,6 +147,7 @@ transition: all linear 400ms;
 border: none;
 }
 
+
 .btn {
 display: flex;
 position: relative;
@@ -195,8 +196,8 @@ textarea {
 }
 
 .email {
-  width: 100%;
-  font-size: 16px;
+ /*width: 100%;*/
+  font-size: 5px;
 }
 }
 
