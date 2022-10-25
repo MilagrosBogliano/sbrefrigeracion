@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 html {
+  overflow-x: hidden;
   font-size: 100%;
 }
 .logo {
@@ -147,6 +148,16 @@ transition: all linear 400ms;
 border: none;
 }
 
+.link_Wpp{
+  position: absolute;
+  padding: 11px;
+  right: 1px;
+}
+ 
+.email {
+  /*width: 100%;*/
+   font-size: 23px;
+ }
 
 .btn {
 display: flex;
@@ -154,6 +165,7 @@ position: relative;
 margin-bottom: 8px;
 padding: inherit;
 }
+
 @media only screen and (max-width: 768px) {
 .parallax {
   width: 100%;
@@ -194,13 +206,7 @@ textarea {
   width: 100%;
   height: auto;
 }
-
-.email {
- /*width: 100%;*/
-  font-size: 5px;
 }
-}
-
 /*Vista tablet*/
 @media only screen and (min-width:769px) and (max-width: 1100px) {
 
